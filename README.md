@@ -5,7 +5,7 @@ Provide useful code snippets and directions on how to effectivly and efficiently
 
 ### Structure
 1. Specific PDFs: 
-  >  Will have their own folder and contain all necessary files to process a specific PDF, with the outermost folder containing the name of the file to be processed. Due to the fact that regex may change between year and version all, regex version will be kept as a txt file in the regex directory.
+  >  Will have their own folder and contain all necessary files to process a specific PDF, with the outermost folder containing the name of the file to be processed. Due to the fact that regex may change between year and version all, regex version will be kept as a `.txt` file in the regex directory.
 2. General Processes: 
   >  Will contain self python files which will be independently executable. Due to the fact that these files are executable without any prior python knowlege, ensure that you carefully read all applicable documentation before using these files.
 3. Code Snippets: 
