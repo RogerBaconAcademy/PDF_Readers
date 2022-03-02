@@ -17,10 +17,10 @@ python separateText.py
 
 ## Unix Users
 ```
-python -m venv myPy_env
-myPy_env\Scripts\activate.bat
+python3 -m venv myPy_env
+source myPy_env/bin/activate
 pip install -r requirements.txt
-python separateText.py
+python3 separateText.py
 ```
 _____________________________
 
