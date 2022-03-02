@@ -15,7 +15,14 @@ pip install -r requirements.txt
 python separateText.py
 ```
 
-
+## Unix Users
+```
+python -m venv myPy_env
+myPy_env\Scripts\activate.bat
+pip install -r requirements.txt
+python separateText.py
+```
+_____________________________
 
 Requires:
 - [Python 3.8](https://www.python.org/downloads/release/python-3810/)
