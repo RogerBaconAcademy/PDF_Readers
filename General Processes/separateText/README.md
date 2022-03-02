@@ -19,4 +19,4 @@ python separateText.py
 
 Requires:
 - [Python 3.8](https://www.python.org/downloads/release/python-3810/)
-- venv
+- [venv](https://docs.python.org/3/library/venv.html)
