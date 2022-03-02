@@ -1,0 +1,4 @@
+numpy==1.18.5
+pandas==1.2.4
+PyPDF2==1.26.0
+termcolor==1.1.0
