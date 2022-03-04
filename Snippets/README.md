@@ -22,12 +22,12 @@ def mergeText(path:str):
     
     for file in [x for x in os.listdir(myDir) if x.endswith(".pdf")]:
         pdfFileObj = open(myDir/file, "rb")
-        pdfReader=PyPDF2.PdfFileReader(pdfFileObj)
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
         
         docPages = ""
         
         for x in range(pdfReader.numPages):
-            docPages=docPages+str(pdfReader.getPage(x).extractText())
+            docPages = docPages+str(pdfReader.getPage(x).extractText())
         
         allPages = allPages+docPages
     
