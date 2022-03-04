@@ -1,7 +1,7 @@
 # PDF Reader Snippets
 
 PDF to Object
-```
+```python
 import PyPDF2
 
 pdfFileObj = open(path, "rb")
@@ -13,7 +13,7 @@ pdfReader.getPage(pageNumber).extractText() # Text of single page object
 ```
 
 Merge All Text
-```
+```python
 import os
 import PyPDF2
 
