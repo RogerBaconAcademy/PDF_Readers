@@ -20,8 +20,8 @@ import PyPDF2
 def mergeText(path:str):
     allPages = ""   
     
-    for file in [x for x in os.listdir(myDir/"Target") if x.endswith(".pdf")]:
-        pdfFileObj = open(path/"Target"/file, "rb")
+    for file in [x for x in os.listdir(myDir) if x.endswith(".pdf")]:
+        pdfFileObj = open(myDir/file, "rb")
         pdfReader=PyPDF2.PdfFileReader(pdfFileObj)
         
         docPages = ""
