@@ -17,7 +17,7 @@ Merge All Text
 import os
 import PyPDF2
 
-def mergeText(path:str):
+def mergeText(myDir:str):
     allPages = ""   
     
     for file in [x for x in os.listdir(myDir) if x.endswith(".pdf")]:
