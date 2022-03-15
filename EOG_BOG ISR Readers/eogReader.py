@@ -12,6 +12,7 @@ from typing import List
 
 
 def ISR_Reader(file_path:str, file_list:List[str]):
+    file_path = Path(file_path)
     df2=pd.DataFrame({'school':[], 'test':[], 'state_ID':[], 'name':[], 'grade':[], 'score':[], 'level':[]})
     for f in [x for x in file_list if x.endswith(".pdf")]:
         pdfFileObj = open(file_path / f, 'rb')
