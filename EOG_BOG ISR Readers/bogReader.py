@@ -8,6 +8,7 @@ from typing import List
 
 
 def ISR_Reader(file_path:str, file_list:List[str]):
+    file_path = Path(file_path)
     for f in file_list:
         pdfFileObj = open(file_path / f, 'rb')
         pdfReader=PyPDF2.PdfFileReader(pdfFileObj)
