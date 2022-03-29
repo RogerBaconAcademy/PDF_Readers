@@ -13,6 +13,7 @@ Provide useful code snippets and directions on how to effectivly and efficiently
   >  This directory will include fuction ment to assist with the building of specific PDF readers and will contain importable function which will only be executable when contained within a larger python file.  
 
 ### Useful Resources
+- Regex Docs: [re](https://docs.python.org/3/library/re.html)
 - PDF Scraper Docs: [PyPDF2](https://pypi.org/project/PyPDF2/)
 - Regex Debugger: [regex101](https://regex101.com/)
 - Dataframe Handling: [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) 
